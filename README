@@ -1,4 +1,10 @@
-Make sure you have completed all the requirements in HW3 Prerequisties.
-Use "tar -xzf aclImdb.tar.gz" to extract the reviews.
-If you haven't downloaded the Glove Embeddings, Use <wget http://nlp.stanford.edu/data/glove.42B.300d.zip> to get the pretrained word Embeddings, Extract them using unzip.
-Submit only the hw3.ipynb with all the saved outputs as your Homework Solutions. The submission should be in the form of "hw3/hw3.ipynb"
+In this assignment we will perform sentiment analysis using a few simple Neural Network based architectures. 
+For this problem we use the IMDB Large Movie Review Dataset. 
+The dataset contains 25,000 highly polar movie reviews for both train and test dataset, 
+each with 12,500 positive (greater than equal to 7/10 rating) and 12,500 negative reviews(less than equal to 4/10 rating).
+
+Part A: Construct this sequential model using Keras
+Part B: Stacking Fully Connected Layers
+Part C: Using LSTMS based networks
+Part D: Adding Pre-trained Word Embeddings
+Part E : Using Convolutional Networks
